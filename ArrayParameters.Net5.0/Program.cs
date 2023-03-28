@@ -6,7 +6,10 @@ namespace ArrayParameters.Net5._0
     {
         static void Main(string[] args)
         {
+            int[] studentsGrades = new int[] { 15, 13, 8, 12, 8, 16 };
+            double averageResult = GetAverage(studentsGrades);
 
+            Console.WriteLine("The average is: {0}", averageResult);
 
 
 
