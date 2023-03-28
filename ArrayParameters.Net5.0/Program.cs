@@ -9,6 +9,11 @@ namespace ArrayParameters.Net5._0
             int[] studentsGrades = new int[] { 15, 13, 8, 12, 8, 16 };
             double averageResult = GetAverage(studentsGrades);
 
+            foreach(int grade in studentsGrades)
+            {
+                Console.WriteLine(" {0}", grade);
+            }
+
             Console.WriteLine("The average is: {0}", averageResult);
             Console.ReadKey();
 
