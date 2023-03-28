@@ -10,6 +10,7 @@ namespace ArrayParameters.Net5._0
             double averageResult = GetAverage(studentsGrades);
 
             Console.WriteLine("The average is: {0}", averageResult);
+            Console.ReadKey();
 
 
 
